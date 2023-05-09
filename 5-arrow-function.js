@@ -3,15 +3,16 @@ Arrow Funtions
 */
 
 
-const sum =  (number1, number2) => {
-    return number1 + number2
-}
-const number1 = 10
-const number2 = 20
 
-console.log (`O primeiro número é ${number1}`)
-console.log (`o segundo número é ${number2}`)
+const sum = (numberOne, numberTwo) => numberOne + numberTwo
 
-const result = sum(number1, number2)
 
-console.log (`E a soma dos dois é ${result}`)
+const firstNumber = 50
+const seccondNumber = 30
+
+console.log (`Number One is ${firstNumber}`)
+console.log (`Number Two is ${seccondNumber}`)
+
+console.log (`Sum of two numbers is ${sum (firstNumber, seccondNumber)}`)
+
+sum (firstNumber, seccondNumber)
